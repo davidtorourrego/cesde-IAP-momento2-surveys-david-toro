@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+     <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contáctenos</h1>
+
+        <nav>
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="survey.html">Crear encuesta</a></li>
+        <li><a href="contact-us.html">Contáctenos</a></li>
+        /ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+
+            <form>
+                <p>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                </p>
+
+                <p>Tipo de usuario:</p>
+                <ul>
+                <li><input type="radio" id="estudiante" name="usuario" value="estudiante"><label for="estudiante">Estudiante</label></li>
+                <li><input type="radio" id="docente" name="usuario" value="docente"><label for="docente">Docente</label></li>
+                <li><input type="radio" id="otro" name="usuario" value="otro"><label for="otro">Otro</label></li>
+                </ul>
+
+                <p>Temas de interés:</p>
+                <ul>
+                <li><input type="checkbox" id="html" name="interes" value="html"><label for="html">HTML</label></li>
+                <li><input type="checkbox" id="css" name="interes" value="css"><label for="css">CSS</label></li>
+                <li><input type="checkbox" id="git" name="interes" value="git"><label for="git">GitHub</label></li>
+                </ul>
+
+                <p>
+                <label for="motivo">Motivo del contacto:</label>
+                <select id="motivo" name="motivo">
+                <option value="duda">Duda</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="comentario">Comentario</option>
+                </select>
+                </p>
+
+                <p>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+                </p>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>proyecto académico sin fromeworks-2026 momento 2</p>
+    </footer>
+
+    
+</body>
+</html>
