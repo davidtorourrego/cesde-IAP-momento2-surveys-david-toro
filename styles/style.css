@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: wheat;
+    color: grey;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+article {
+    background-color:lightblue;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input,
+select,
+textarea {
+    margin-top: 5px;
+    padding: 8px;
+    width: 90%;
+    max-width: 400px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+button,
+.boton {
+    background-color: mediumblue;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+.boton:hover {
+    background-color: deepskyblue;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
